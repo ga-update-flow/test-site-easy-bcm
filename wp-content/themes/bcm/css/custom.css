@@ -1,0 +1,405 @@
+.snackbar {
+	display: none;
+	flex-wrap: wrap;
+    width: calc(100% - 50px);
+    max-width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #03A6A6;
+    color: #000;
+    padding: 1em 25px;
+	gap: 1em;
+}
+
+.snackbar .closebtn {
+	margin-top: 0 !important;
+	background-color: #000;
+	color: #fff;
+	padding: 6px 12px;
+	font-weight: bold;
+}
+
+.snackbar .closebtn:hover {
+	cursor: pointer;
+}
+
+.snackbar a {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.show-snackbar {
+	display: flex;
+}
+
+@media (min-width: 699px) {
+	.snackbar,
+	.snackbar .closebtn {
+		font-size: .938em;
+		line-height: 1.4;
+	}
+}
+
+@media (min-width: 1600px) {
+	.snackbar {
+		width: calc(1600px - 2em);
+	}
+}
+
+
+/* KATRINA 20 PAGE TEMPLATE */
+.k20-hero {
+	background-image: url("../../../uploads/2026/06/K20-BG.png");
+	background-size: contain;
+    background-repeat: repeat;
+}
+
+.k20-hero,
+.k20-quote {
+	display: flex;
+    flex-wrap: wrap;
+	background-color: #024059;
+	color: #fff;
+}
+
+.k20-hero-text,
+.k20-hero-image,
+.k20-quote img,
+.k20-quote figcaption {
+	position: relative;
+    width: 100%;
+	margin: 0;
+}
+
+.k20-hero-text > div,
+.k20-quote figcaption > div {
+	padding: 40px 20px;
+}
+
+.k20-hero-text div a {
+	display: inline-block;
+	font-size: 1.25em;
+	font-weight: bold;
+	color: #fff;
+	border: 2px solid #D9AC25;
+    padding: 8px 16px;
+    text-transform: uppercase;
+    margin-top: 20px;
+	margin-left: 8px;
+	transition: .3s all;
+}
+
+.k20-hero-text div a:hover {
+	background-color: #D9AC25;
+    color: #024059;
+}
+
+.k20-hero-image-bg {
+	position: absolute;
+	width: calc(100% - 60px);
+	height: calc(100% - 60px);
+	top: 30px;
+	left: 30px;
+	right: 30px;
+	bottom: 30px;
+	background-size: contain;
+    background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+
+.k20-quote {
+	margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.k20-text-section {
+    margin-bottom: 3em;
+}
+
+.k20-text-section h3 {
+	color: #03A6A6;
+	font-style: normal;
+	margin-top: 1.4em;
+}
+
+.k20-quote img {
+	max-width: 100%;
+	height: auto;
+	border-bottom: 8px solid #03A6A6;
+}
+
+.k20-quote figcaption > div p {
+	font-size: 1.1em;
+	font-weight: bold;
+    font-style: italic;
+    color: #024059;
+}
+
+h2 {
+	max-width: 1280px;
+    margin: 0 auto;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    color: #03A6A6;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+@media (min-width: 40em) {
+	.k20-hero-text h1 {
+        font-size: 4.5em;
+    }
+	
+	.k20-hero-text p,
+	.k20-text-section p {
+		font-size: 1.2em;
+	}
+	
+	.k20-quote img,
+	.k20-quote figcaption {
+		flex: 0 0 calc(50% - 4px);
+        max-width: calc(50% - 4px);
+	}
+	
+	.k20-quote img {
+		border-right: 8px solid #70b099;
+		border-bottom: none;
+	}
+}
+
+@media (min-width: 1000px) {
+	.k20-hero {
+		min-height: 500px;
+	}
+	
+	.k20-hero-text,
+	.k20-hero-image {
+		flex: 0 0 50%;
+        max-width: 50%;
+	}
+	
+	.k20-quote img {
+		flex: 0 0 55%;
+        max-width: 55%;
+		border-right: 16px solid #03A6A6;
+	}
+	
+	.k20-quote figcaption {
+		flex: 0 0 calc(45% - 16px);
+        max-width: calc(45% - 16px);
+	}
+	
+	.k20-hero-text > div,
+	.k20-quote figcaption > div {
+		padding: 80px 40px;
+	}
+	
+	.k20-hero-text > div {
+		padding-right: 80px;
+	}
+	
+	.k20-quote figcaption > div p {
+		font-size: 1.2em;
+	}
+}
+
+@media (min-width: 1200px) {
+	.k20-quote figcaption > div p {
+		font-size: 1.4em;
+	}
+}
+
+@media (min-width: 1300px) {
+	.k20-row {
+		justify-content: center;
+	}
+}
+
+@media (max-width: 999px) {
+	.k20-hero-image {
+		height: 400px;
+		order: -1;
+	}
+}
+
+@media (max-width: 799px) {
+	.k20-hero-image {
+		height: 350px;
+	}
+}
+
+@media (max-width: 699px) {
+	.k20-hero {
+		background-repeat: no-repeat;
+    	background-size: cover;
+	}
+}
+
+@media (max-width: 599px) {
+	.k20-hero-image {
+		height: 300px;
+	}
+}
+
+/* FLIP CARDS */
+.k20-row {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	gap: 30px;
+	max-width: 80em;
+    margin: 0 auto;
+}
+
+.k2-col {
+	position: relative;
+	width: 100%;
+	margin-top: 0 !important;
+}
+
+.k20-card {
+	position: relative;
+	margin-bottom: 0 !important;
+	background-image: url("../../../uploads/2026/06/K20-BG.png");
+	background-size: contain;
+    background-repeat: repeat;
+    background-position: 50% 0%;
+	transition: .3s all;
+}
+
+.k20-card img {
+	max-width: 100%;
+	height: auto !important;
+}
+
+.k20-card .back-img {
+	position: absolute;
+	width: 100%;
+	height: auto;
+	top: 0 !important;
+	right: 0;
+	top: 0;
+	margin-top: 0 !important;
+}
+
+.k20-card .front-img {
+	position: relative;
+	z-index: 1;
+}
+
+.k20-card .back-img{
+	opacity: 0;
+	visibility: hidden;
+	z-index: 2;
+	transition: .3s all;
+}
+
+.k20-card:hover {
+	background-image: url("../../../uploads/2026/06/BG-tan.webp");
+}
+
+.k20-card:hover .back-img{
+	opacity: 1;
+	visibility: visible;
+}
+
+.k20-card figcaption {
+	margin-top: -10px !important;
+    text-align: center;
+    padding: 30px 10px;
+    padding-top: 45px;
+}
+
+a.button-link {
+	color: #fff;
+    font-weight: bolder;
+    text-transform: uppercase;
+    border: 2px solid #D9AC25;
+    padding: 15px;
+	transition: .3s all;
+}
+
+.k20-card:hover a.button-link {
+	border-color: #024059;
+	color: #024059;
+}
+
+a.button-link:hover {
+	color: #fff !important;
+	background-color: #024059;
+}
+
+@media (min-width: 680px) {
+	.k2-col {
+		flex: 0 0 calc(50% - 30px);
+        max-width: calc(50% - 30px);
+	}
+}
+
+@media (max-width: 959px) {
+	.k20-row {
+		width: calc(100% - 60px);
+		padding: 0 30px;
+	}
+	
+	h2 {
+		padding-left: 30px;
+	}
+}
+
+@media (min-width: 1000px) {
+	.k2-col {
+		flex: 0 0 calc(33.333333% - 30px);
+        max-width: calc(33.333333% - 30px);
+	}
+}
+
+@media (min-width: 1300px) {
+	.k2-col {
+		flex: 0 0 calc(25% - 30px);
+        max-width: calc(25% - 30px);
+	}
+}
+
+
+/* GALLERY */
+.carousel-wrapper {
+	max-width: 80em;
+	width: 80%;
+	margin: 3em auto;
+	padding: 0 15px;
+}
+
+.splide img {
+	max-width: 100% !important;
+	height: auto !important;
+}
+
+.carousel-wrapper .splide .splide__arrow--prev,
+.carousel-wrapper .splide .splide__arrow--next {
+	background: transparent;
+}
+
+.carousel-wrapper .splide .splide__arrow--prev {
+	left: -40px;
+}
+
+.carousel-wrapper .splide .splide__arrow--next {
+	right: -40px;
+}
+
+.carousel-wrapper .splide .splide__arrow--prev svg,
+.carousel-wrapper .splide .splide__arrow svg {
+	fill: #04BFAD;
+    height: 40px;
+    width: 40px;
+}
+
+@media (min-width: 960px) {
+	.carousel-wrapper {
+		width: 90%;
+	}
+}

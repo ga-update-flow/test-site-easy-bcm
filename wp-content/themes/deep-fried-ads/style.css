@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+/*
+Theme Name: Deep Fried Advertising: Parent Theme
+Theme URI: https://deepfried.com
+Description: Everything is better Deep Fried.
+Version: 4.0.2
+Author: Deep Fried Advertising
+Author URI: https://deepfried.com
+*/
+
+#wpadminbar .DFA-icon {
+  width: 23px;
+  margin: 2px 10px 0 0;
+  float: left;
+}
+
+#wpadminbar .DFA-env {
+  pointer-events: none;
+}
+
+#wpadminbar .DFA__env-name {
+  font-weight: bold;
+  pointer-events: none;
+  color: #313131;
+}
+
+#wpadminbar .DFA-local {
+  background: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+
+#wpadminbar .DFA-staging {
+  background: linear-gradient(120deg, #9ac1fc, #c2e9fb);
+}
+#wpadminbar .DFA-live {
+  background: linear-gradient(90deg, #ff4c2b 0, #ef0f33) #ef0f33;
+}
