@@ -1,0 +1,14 @@
+### case-16-template-replaced: PASS
+- PASS Changed file is live and identical to the branch - grants/open-applications/transom-grants/index.html (last HTTP 200, 84954 bytes)
+- PASS New text is visible on the live page [plain HTTP] - 0 line(s) added by this case, 0 missing
+- PASS Old text is gone from the live page [plain HTTP] - 0 line(s) removed by this case, 0 still shown
+- PASS New text is visible on the live page [Chrome-rendered page] - 0 line(s) added by this case, 0 missing
+- PASS Old text is gone from the live page [Chrome-rendered page] - 0 line(s) removed by this case, 0 still shown
+- PASS New links are on the live page [plain HTTP] - ../../../wp-content/uploads/2026/02/Line-Item-Budget-Narrative-Revenues-Template-2027.xlsx
+- PASS Old links are gone from the live page [plain HTTP] - ../../../wp-content/uploads/2026/02/Line-Item-Budget-Narrative-Revenues-Template.xlsx
+- PASS New links are on the live page [Chrome-rendered page] - ../../../wp-content/uploads/2026/02/Line-Item-Budget-Narrative-Revenues-Template-2027.xlsx
+- PASS Old links are gone from the live page [Chrome-rendered page] - ../../../wp-content/uploads/2026/02/Line-Item-Budget-Narrative-Revenues-Template.xlsx
+- PASS Page links the new document - Line-Item-Budget-Narrative-Revenues-Template-2027.xlsx
+- PASS Added file is live and identical to the branch - wp-content/uploads/2026/02/Line-Item-Budget-Narrative-Revenues-Template-2027.xlsx (last HTTP 200, 31118 bytes)
+- PASS Unchanged page is identical to the baseline - index.html (last HTTP 200)
+- PASS Unchanged page is identical to the baseline - grants/index.html (last HTTP 200)
