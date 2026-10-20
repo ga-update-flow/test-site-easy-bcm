@@ -1,0 +1,27 @@
+{
+  "case": "case-01-page-removed",
+  "result": "PASS",
+  "run_id": "39477410621",
+  "time": "2026-10-20 18:45:39 UTC",
+  "live_url": "https://javedibrahim200.github.io/test-site-easy-bcm/",
+  "changed_files": [
+    "D grants/by-invitation-only/opportunity-grants/index.html"
+  ],
+  "checks": [
+    {
+      "pass": true,
+      "check": "Removed page returns 404 on the live site",
+      "detail": "https://javedibrahim200.github.io/test-site-easy-bcm/grants/by-invitation-only/opportunity-grants/ -> HTTP 404"
+    },
+    {
+      "pass": true,
+      "check": "Unchanged page is identical to the baseline",
+      "detail": "index.html (last HTTP 200)"
+    },
+    {
+      "pass": true,
+      "check": "Unchanged page is identical to the baseline",
+      "detail": "grants/index.html (last HTTP 200)"
+    }
+  ]
+}
