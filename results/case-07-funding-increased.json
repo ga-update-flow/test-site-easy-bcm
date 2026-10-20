@@ -1,0 +1,57 @@
+{
+  "case": "case-07-funding-increased",
+  "result": "PASS",
+  "run_id": "39477410621",
+  "time": "2026-10-20 18:52:50 UTC",
+  "live_url": "https://javedibrahim200.github.io/test-site-easy-bcm/",
+  "changed_files": [
+    "M grants/open-applications/transom-grants/index.html"
+  ],
+  "checks": [
+    {
+      "pass": true,
+      "check": "Changed file is live and identical to the branch",
+      "detail": "grants/open-applications/transom-grants/index.html (last HTTP 200, 84949 bytes)"
+    },
+    {
+      "pass": true,
+      "check": "New text is visible on the live page [plain HTTP]",
+      "detail": "2 line(s) added by this case, 0 missing"
+    },
+    {
+      "pass": true,
+      "check": "Old text is gone from the live page [plain HTTP]",
+      "detail": "2 line(s) removed by this case, 0 still shown"
+    },
+    {
+      "pass": true,
+      "check": "New text is visible on the live page [Chrome-rendered page]",
+      "detail": "2 line(s) added by this case, 0 missing"
+    },
+    {
+      "pass": true,
+      "check": "Old text is gone from the live page [Chrome-rendered page]",
+      "detail": "2 line(s) removed by this case, 0 still shown"
+    },
+    {
+      "pass": true,
+      "check": "Examples of what the live page now says",
+      "detail": "All requests must be at least $75,000 per year to be considered. || A \u2013 BCM Transom requests must include a minimum request of $75,000 per year up to three years (including indirect costs up to 12%). While no"
+    },
+    {
+      "pass": true,
+      "check": "Examples of what it said before",
+      "detail": "All requests must be at least $50,000 per year to be considered. || A \u2013 BCM Transom requests must include a minimum request of $50,000 per year up to three years (including indirect costs up to 12%). While no"
+    },
+    {
+      "pass": true,
+      "check": "Unchanged page is identical to the baseline",
+      "detail": "index.html (last HTTP 200)"
+    },
+    {
+      "pass": true,
+      "check": "Unchanged page is identical to the baseline",
+      "detail": "grants/index.html (last HTTP 200)"
+    }
+  ]
+}
