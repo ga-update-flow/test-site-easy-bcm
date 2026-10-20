@@ -1,0 +1,77 @@
+{
+  "case": "case-17-contact-changed",
+  "result": "PASS",
+  "run_id": "39477410621",
+  "time": "2026-10-20 19:11:27 UTC",
+  "live_url": "https://javedibrahim200.github.io/test-site-easy-bcm/",
+  "changed_files": [
+    "M grants/open-applications/discretionary-grants/index.html"
+  ],
+  "checks": [
+    {
+      "pass": true,
+      "check": "Changed file is live and identical to the branch",
+      "detail": "grants/open-applications/discretionary-grants/index.html (last HTTP 200, 31553 bytes)"
+    },
+    {
+      "pass": true,
+      "check": "New text is visible on the live page [plain HTTP]",
+      "detail": "1 line(s) added by this case, 0 missing"
+    },
+    {
+      "pass": true,
+      "check": "Old text is gone from the live page [plain HTTP]",
+      "detail": "1 line(s) removed by this case, 0 still shown"
+    },
+    {
+      "pass": true,
+      "check": "New text is visible on the live page [Chrome-rendered page]",
+      "detail": "1 line(s) added by this case, 0 missing"
+    },
+    {
+      "pass": true,
+      "check": "Old text is gone from the live page [Chrome-rendered page]",
+      "detail": "1 line(s) removed by this case, 0 still shown"
+    },
+    {
+      "pass": true,
+      "check": "New links are on the live page [plain HTTP]",
+      "detail": "mailto:grantsteam@bcm.org"
+    },
+    {
+      "pass": true,
+      "check": "Old links are gone from the live page [plain HTTP]",
+      "detail": "mailto:naidoo@bcm.org"
+    },
+    {
+      "pass": true,
+      "check": "New links are on the live page [Chrome-rendered page]",
+      "detail": "mailto:grantsteam@bcm.org"
+    },
+    {
+      "pass": true,
+      "check": "Old links are gone from the live page [Chrome-rendered page]",
+      "detail": "mailto:naidoo@bcm.org"
+    },
+    {
+      "pass": true,
+      "check": "Examples of what the live page now says",
+      "detail": "grantsteam@bcm.org"
+    },
+    {
+      "pass": true,
+      "check": "Examples of what it said before",
+      "detail": "naidoo@bcm.org"
+    },
+    {
+      "pass": true,
+      "check": "Unchanged page is identical to the baseline",
+      "detail": "index.html (last HTTP 200)"
+    },
+    {
+      "pass": true,
+      "check": "Unchanged page is identical to the baseline",
+      "detail": "grants/index.html (last HTTP 200)"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+### case-17-contact-changed: PASS
+- PASS Changed file is live and identical to the branch - grants/open-applications/discretionary-grants/index.html (last HTTP 200, 31553 bytes)
+- PASS New text is visible on the live page [plain HTTP] - 1 line(s) added by this case, 0 missing
+- PASS Old text is gone from the live page [plain HTTP] - 1 line(s) removed by this case, 0 still shown
+- PASS New text is visible on the live page [Chrome-rendered page] - 1 line(s) added by this case, 0 missing
+- PASS Old text is gone from the live page [Chrome-rendered page] - 1 line(s) removed by this case, 0 still shown
+- PASS New links are on the live page [plain HTTP] - mailto:grantsteam@bcm.org
+- PASS Old links are gone from the live page [plain HTTP] - mailto:naidoo@bcm.org
+- PASS New links are on the live page [Chrome-rendered page] - mailto:grantsteam@bcm.org
+- PASS Old links are gone from the live page [Chrome-rendered page] - mailto:naidoo@bcm.org
+- PASS Examples of what the live page now says - grantsteam@bcm.org
+- PASS Examples of what it said before - naidoo@bcm.org
+- PASS Unchanged page is identical to the baseline - index.html (last HTTP 200)
+- PASS Unchanged page is identical to the baseline - grants/index.html (last HTTP 200)
