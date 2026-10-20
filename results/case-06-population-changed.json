@@ -1,0 +1,57 @@
+{
+  "case": "case-06-population-changed",
+  "result": "PASS",
+  "run_id": "39477410621",
+  "time": "2026-10-20 18:52:02 UTC",
+  "live_url": "https://javedibrahim200.github.io/test-site-easy-bcm/",
+  "changed_files": [
+    "M grants/by-invitation-only/strategic-grants/index.html"
+  ],
+  "checks": [
+    {
+      "pass": true,
+      "check": "Changed file is live and identical to the branch",
+      "detail": "grants/by-invitation-only/strategic-grants/index.html (last HTTP 200, 45758 bytes)"
+    },
+    {
+      "pass": true,
+      "check": "New text is visible on the live page [plain HTTP]",
+      "detail": "1 line(s) added by this case, 0 missing"
+    },
+    {
+      "pass": true,
+      "check": "Old text is gone from the live page [plain HTTP]",
+      "detail": "1 line(s) removed by this case, 0 still shown"
+    },
+    {
+      "pass": true,
+      "check": "New text is visible on the live page [Chrome-rendered page]",
+      "detail": "1 line(s) added by this case, 0 missing"
+    },
+    {
+      "pass": true,
+      "check": "Old text is gone from the live page [Chrome-rendered page]",
+      "detail": "1 line(s) removed by this case, 0 still shown"
+    },
+    {
+      "pass": true,
+      "check": "Examples of what the live page now says",
+      "detail": "Quality seats for children with disabilities and for families experiencing homelessness, with particular focus on rural parishes"
+    },
+    {
+      "pass": true,
+      "check": "Examples of what it said before",
+      "detail": "Quality seats for all children with particular focus on low-income and marginalized communities"
+    },
+    {
+      "pass": true,
+      "check": "Unchanged page is identical to the baseline",
+      "detail": "index.html (last HTTP 200)"
+    },
+    {
+      "pass": true,
+      "check": "Unchanged page is identical to the baseline",
+      "detail": "grants/index.html (last HTTP 200)"
+    }
+  ]
+}
