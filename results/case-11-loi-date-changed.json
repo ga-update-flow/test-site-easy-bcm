@@ -1,0 +1,57 @@
+{
+  "case": "case-11-loi-date-changed",
+  "result": "PASS",
+  "run_id": "39477410621",
+  "time": "2026-10-20 18:56:42 UTC",
+  "live_url": "https://javedibrahim200.github.io/test-site-easy-bcm/",
+  "changed_files": [
+    "M grants/open-applications/transom-grants/index.html"
+  ],
+  "checks": [
+    {
+      "pass": true,
+      "check": "Changed file is live and identical to the branch",
+      "detail": "grants/open-applications/transom-grants/index.html (last HTTP 200, 85057 bytes)"
+    },
+    {
+      "pass": true,
+      "check": "New text is visible on the live page [plain HTTP]",
+      "detail": "10 line(s) added by this case, 0 missing"
+    },
+    {
+      "pass": true,
+      "check": "Old text is gone from the live page [plain HTTP]",
+      "detail": "10 line(s) removed by this case, 0 still shown"
+    },
+    {
+      "pass": true,
+      "check": "New text is visible on the live page [Chrome-rendered page]",
+      "detail": "10 line(s) added by this case, 0 missing"
+    },
+    {
+      "pass": true,
+      "check": "Old text is gone from the live page [Chrome-rendered page]",
+      "detail": "10 line(s) removed by this case, 0 still shown"
+    },
+    {
+      "pass": true,
+      "check": "Examples of what the live page now says",
+      "detail": "Upcoming Spring 2027 Cycle || January 12, 2027: Transom Info Session 10:00-11:00AM | || Spring 2027 Info Session Recording"
+    },
+    {
+      "pass": true,
+      "check": "Examples of what it said before",
+      "detail": "Upcoming Fall 2026 Cycle || July 13, 2026: Transom Info Session 10:00-11:00AM | || Fall 2026 Info Session Recording"
+    },
+    {
+      "pass": true,
+      "check": "Unchanged page is identical to the baseline",
+      "detail": "index.html (last HTTP 200)"
+    },
+    {
+      "pass": true,
+      "check": "Unchanged page is identical to the baseline",
+      "detail": "grants/index.html (last HTTP 200)"
+    }
+  ]
+}
