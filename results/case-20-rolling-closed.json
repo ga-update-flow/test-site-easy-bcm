@@ -1,0 +1,57 @@
+{
+  "case": "case-20-rolling-closed",
+  "result": "PASS",
+  "run_id": "39477410621",
+  "time": "2026-10-20 19:23:58 UTC",
+  "live_url": "https://javedibrahim200.github.io/test-site-easy-bcm/",
+  "changed_files": [
+    "M grants/open-applications/discretionary-grants/index.html"
+  ],
+  "checks": [
+    {
+      "pass": true,
+      "check": "Changed file is live and identical to the branch",
+      "detail": "grants/open-applications/discretionary-grants/index.html (last HTTP 200, 31535 bytes)"
+    },
+    {
+      "pass": true,
+      "check": "New text is visible on the live page [plain HTTP]",
+      "detail": "2 line(s) added by this case, 0 missing"
+    },
+    {
+      "pass": true,
+      "check": "Old text is gone from the live page [plain HTTP]",
+      "detail": "2 line(s) removed by this case, 0 still shown"
+    },
+    {
+      "pass": true,
+      "check": "New text is visible on the live page [Chrome-rendered page]",
+      "detail": "2 line(s) added by this case, 0 missing"
+    },
+    {
+      "pass": true,
+      "check": "Old text is gone from the live page [Chrome-rendered page]",
+      "detail": "2 line(s) removed by this case, 0 still shown"
+    },
+    {
+      "pass": true,
+      "check": "Examples of what the live page now says",
+      "detail": "BCM awards Discretionary Donations in amounts of $2,500 or $5,000 to support community events. If your organization seeks funding for an eve || . Applications are no longer being accepted. The Discretionary Donations program is closed to new requests until further notice."
+    },
+    {
+      "pass": true,
+      "check": "Examples of what it said before",
+      "detail": "BCM awards Discretionary Donations in amounts of $2,500 or $5,000 to support community events. If your organization seeks funding for an eve || . Applications may be submitted any time during the year. We suggest that you submit your application at least six weeks prior to your event"
+    },
+    {
+      "pass": true,
+      "check": "Unchanged page is identical to the baseline",
+      "detail": "index.html (last HTTP 200)"
+    },
+    {
+      "pass": true,
+      "check": "Unchanged page is identical to the baseline",
+      "detail": "grants/index.html (last HTTP 200)"
+    }
+  ]
+}
