@@ -1,14 +1,14 @@
-### case-15-rfp-replaced: FAIL
-- PASS Changed file is live and identical to the branch - grants/open-applications/transom-grants/index.html (last HTTP 200, 84949 bytes)
+### case-15-rfp-replaced: PASS
+- PASS Changed file is live and identical to the branch - grants/open-applications/transom-grants/index.html (last HTTP 200, 84949 bytes, sha 0c5ea1c29a; branch sha 0c5ea1c29a, baseline sha 51582e41df)
 - PASS New text is visible on the live page [plain HTTP] - 0 line(s) added by this case, 0 missing
 - PASS Old text is gone from the live page [plain HTTP] - 0 line(s) removed by this case, 0 still shown
 - PASS New text is visible on the live page [Chrome-rendered page] - 0 line(s) added by this case, 0 missing
 - PASS Old text is gone from the live page [Chrome-rendered page] - 0 line(s) removed by this case, 0 still shown
-- FAIL New links are on the live page [plain HTTP] - ../../../wp-content/uploads/2026/07/Transom-LOI-Overview-2027.pdf
-- FAIL Old links are gone from the live page [plain HTTP] - ../../../wp-content/uploads/2026/07/Transom-LOI-Overview.docx.pdf
+- PASS New links are on the live page [plain HTTP] - ../../../wp-content/uploads/2026/07/Transom-LOI-Overview-2027.pdf
+- PASS Old links are gone from the live page [plain HTTP] - ../../../wp-content/uploads/2026/07/Transom-LOI-Overview.docx.pdf
 - PASS New links are on the live page [Chrome-rendered page] - ../../../wp-content/uploads/2026/07/Transom-LOI-Overview-2027.pdf
 - PASS Old links are gone from the live page [Chrome-rendered page] - ../../../wp-content/uploads/2026/07/Transom-LOI-Overview.docx.pdf
 - PASS Page links the new document - Transom-LOI-Overview-2027.pdf
-- PASS Added file is live and identical to the branch - wp-content/uploads/2026/07/Transom-LOI-Overview-2027.pdf (last HTTP 200, 3291 bytes)
+- PASS Added file is live and identical to the branch - wp-content/uploads/2026/07/Transom-LOI-Overview-2027.pdf (last HTTP 200, 3291 bytes, sha 6faa1b83ab; branch sha 6faa1b83ab, baseline sha e3b0c44298)
 - PASS Unchanged page is identical to the baseline - index.html (last HTTP 200)
 - PASS Unchanged page is identical to the baseline - grants/index.html (last HTTP 200)

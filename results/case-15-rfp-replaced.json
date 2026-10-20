@@ -1,8 +1,8 @@
 {
   "case": "case-15-rfp-replaced",
-  "result": "FAIL",
-  "run_id": "39477410621",
-  "time": "2026-10-20 19:09:39 UTC",
+  "result": "PASS",
+  "run_id": "39486333745",
+  "time": "2026-10-20 19:48:53 UTC",
   "live_url": "https://javedibrahim200.github.io/test-site-easy-bcm/",
   "changed_files": [
     "M grants/open-applications/transom-grants/index.html",
@@ -12,7 +12,7 @@
     {
       "pass": true,
       "check": "Changed file is live and identical to the branch",
-      "detail": "grants/open-applications/transom-grants/index.html (last HTTP 200, 84949 bytes)"
+      "detail": "grants/open-applications/transom-grants/index.html (last HTTP 200, 84949 bytes, sha 0c5ea1c29a; branch sha 0c5ea1c29a, baseline sha 51582e41df)"
     },
     {
       "pass": true,
@@ -35,12 +35,12 @@
       "detail": "0 line(s) removed by this case, 0 still shown"
     },
     {
-      "pass": false,
+      "pass": true,
       "check": "New links are on the live page [plain HTTP]",
       "detail": "../../../wp-content/uploads/2026/07/Transom-LOI-Overview-2027.pdf"
     },
     {
-      "pass": false,
+      "pass": true,
       "check": "Old links are gone from the live page [plain HTTP]",
       "detail": "../../../wp-content/uploads/2026/07/Transom-LOI-Overview.docx.pdf"
     },
@@ -62,7 +62,7 @@
     {
       "pass": true,
       "check": "Added file is live and identical to the branch",
-      "detail": "wp-content/uploads/2026/07/Transom-LOI-Overview-2027.pdf (last HTTP 200, 3291 bytes)"
+      "detail": "wp-content/uploads/2026/07/Transom-LOI-Overview-2027.pdf (last HTTP 200, 3291 bytes, sha 6faa1b83ab; branch sha 6faa1b83ab, baseline sha e3b0c44298)"
     },
     {
       "pass": true,
