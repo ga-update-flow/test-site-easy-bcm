@@ -1,0 +1,14 @@
+### case-15-rfp-replaced: FAIL
+- PASS Changed file is live and identical to the branch - grants/open-applications/transom-grants/index.html (last HTTP 200, 84949 bytes)
+- PASS New text is visible on the live page [plain HTTP] - 0 line(s) added by this case, 0 missing
+- PASS Old text is gone from the live page [plain HTTP] - 0 line(s) removed by this case, 0 still shown
+- PASS New text is visible on the live page [Chrome-rendered page] - 0 line(s) added by this case, 0 missing
+- PASS Old text is gone from the live page [Chrome-rendered page] - 0 line(s) removed by this case, 0 still shown
+- FAIL New links are on the live page [plain HTTP] - ../../../wp-content/uploads/2026/07/Transom-LOI-Overview-2027.pdf
+- FAIL Old links are gone from the live page [plain HTTP] - ../../../wp-content/uploads/2026/07/Transom-LOI-Overview.docx.pdf
+- PASS New links are on the live page [Chrome-rendered page] - ../../../wp-content/uploads/2026/07/Transom-LOI-Overview-2027.pdf
+- PASS Old links are gone from the live page [Chrome-rendered page] - ../../../wp-content/uploads/2026/07/Transom-LOI-Overview.docx.pdf
+- PASS Page links the new document - Transom-LOI-Overview-2027.pdf
+- PASS Added file is live and identical to the branch - wp-content/uploads/2026/07/Transom-LOI-Overview-2027.pdf (last HTTP 200, 3291 bytes)
+- PASS Unchanged page is identical to the baseline - index.html (last HTTP 200)
+- PASS Unchanged page is identical to the baseline - grants/index.html (last HTTP 200)

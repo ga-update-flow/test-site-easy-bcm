@@ -1,0 +1,78 @@
+{
+  "case": "case-15-rfp-replaced",
+  "result": "FAIL",
+  "run_id": "39477410621",
+  "time": "2026-10-20 19:09:39 UTC",
+  "live_url": "https://javedibrahim200.github.io/test-site-easy-bcm/",
+  "changed_files": [
+    "M grants/open-applications/transom-grants/index.html",
+    "A wp-content/uploads/2026/07/Transom-LOI-Overview-2027.pdf"
+  ],
+  "checks": [
+    {
+      "pass": true,
+      "check": "Changed file is live and identical to the branch",
+      "detail": "grants/open-applications/transom-grants/index.html (last HTTP 200, 84949 bytes)"
+    },
+    {
+      "pass": true,
+      "check": "New text is visible on the live page [plain HTTP]",
+      "detail": "0 line(s) added by this case, 0 missing"
+    },
+    {
+      "pass": true,
+      "check": "Old text is gone from the live page [plain HTTP]",
+      "detail": "0 line(s) removed by this case, 0 still shown"
+    },
+    {
+      "pass": true,
+      "check": "New text is visible on the live page [Chrome-rendered page]",
+      "detail": "0 line(s) added by this case, 0 missing"
+    },
+    {
+      "pass": true,
+      "check": "Old text is gone from the live page [Chrome-rendered page]",
+      "detail": "0 line(s) removed by this case, 0 still shown"
+    },
+    {
+      "pass": false,
+      "check": "New links are on the live page [plain HTTP]",
+      "detail": "../../../wp-content/uploads/2026/07/Transom-LOI-Overview-2027.pdf"
+    },
+    {
+      "pass": false,
+      "check": "Old links are gone from the live page [plain HTTP]",
+      "detail": "../../../wp-content/uploads/2026/07/Transom-LOI-Overview.docx.pdf"
+    },
+    {
+      "pass": true,
+      "check": "New links are on the live page [Chrome-rendered page]",
+      "detail": "../../../wp-content/uploads/2026/07/Transom-LOI-Overview-2027.pdf"
+    },
+    {
+      "pass": true,
+      "check": "Old links are gone from the live page [Chrome-rendered page]",
+      "detail": "../../../wp-content/uploads/2026/07/Transom-LOI-Overview.docx.pdf"
+    },
+    {
+      "pass": true,
+      "check": "Page links the new document",
+      "detail": "Transom-LOI-Overview-2027.pdf"
+    },
+    {
+      "pass": true,
+      "check": "Added file is live and identical to the branch",
+      "detail": "wp-content/uploads/2026/07/Transom-LOI-Overview-2027.pdf (last HTTP 200, 3291 bytes)"
+    },
+    {
+      "pass": true,
+      "check": "Unchanged page is identical to the baseline",
+      "detail": "index.html (last HTTP 200)"
+    },
+    {
+      "pass": true,
+      "check": "Unchanged page is identical to the baseline",
+      "detail": "grants/index.html (last HTTP 200)"
+    }
+  ]
+}
